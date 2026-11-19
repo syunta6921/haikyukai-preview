@@ -39,6 +39,11 @@ section{scroll-margin-top:calc(var(--header-h) + 8px)}
 .sp-only{display:none}
 ::selection{background:var(--magenta);color:#fff}
 
+/* ---------- 日本語の改行（1文字だけの行を作らない） ---------- */
+h1,h2,h3,h4{text-wrap:balance;word-break:auto-phrase}
+p,li,dd{text-wrap:pretty}
+.btn,.hero-chips li{white-space:nowrap}
+
 /* ---------- buttons ---------- */
 .btn{
   display:inline-flex;align-items:center;gap:.5em;
