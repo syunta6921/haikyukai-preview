@@ -148,8 +148,9 @@ section{scroll-margin-top:calc(var(--header-h) + 8px)}
 }
 .eyebrow-line{display:inline-block;width:52px;height:2.5px;background:var(--magenta-2)}
 .hero-title{
-  font-size:clamp(3.4rem,10.5vw,7.6rem);
+  font-size:clamp(2.5rem,11vw,7.6rem);
   font-weight:900;line-height:1.08;letter-spacing:.02em;
+  white-space:nowrap;
   margin:.18em 0 .05em;
   text-shadow:0 8px 40px rgba(0,0,0,.45);
 }
@@ -586,6 +587,7 @@ section{scroll-margin-top:calc(var(--header-h) + 8px)}
   .values-grid{grid-template-columns:1fr}
   .about-facts{grid-template-columns:1fr}
   .hero-content{padding-bottom:96px}
+  .hero-slogan{letter-spacing:.18em}
   .hero-actions .btn{width:100%;justify-content:center}
   .sp-only{display:block}
   .pc-only{display:none}
